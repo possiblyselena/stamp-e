@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-package-brown: #ECC7A4;
+  --colour-leaf-green: #C0DE5C;
+  --colour-ballon-red: #F0A195;
+  --colour-panda-black: #616161;
+  --colour-bell-yellow: #EBE14E; 
+  --colour-seabass-blue: #97D0DB;
+}
+
