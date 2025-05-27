@@ -4,9 +4,21 @@
 @theme {
   --color-package-brown: #ECC7A4;
   --colour-leaf-green: #C0DE5C;
-  --colour-ballon-red: #F0A195;
+  --colour-balloon-red: #FF9595;
   --colour-panda-black: #616161;
   --colour-bell-yellow: #EBE14E; 
-  --colour-seabass-blue: #97D0DB;
+  --colour-seabass-blue: #FFF4E9;
+}
+@layer base {
+  html {
+    font-family: 'Sour Gummy', sans-serif;
+  }
+  body {
+    background-color: var(--colour-seabass-blue);
+  }
+  h1 {
+    font-size: 3rem;
+    color: var(--colour-bell-yellow);
+  }
 }
 
